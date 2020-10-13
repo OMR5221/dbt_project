@@ -1,4 +1,3 @@
 ## DBT Project (Call in Aiflow BashOperator)
-Run in dbt directory:
-* dbt run --models airflow_dbt_pg.ge_tutorials.*
-* dbt ls --models
+* dbt run --project-dir ./dbt --models airflow_dbt_pg.ge_tutorials.*
+* dbt ls --project-dir --models
